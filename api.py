@@ -19,7 +19,7 @@ from flask import Flask;
 
 geolocator = Nominatim(user_agent="algo")
 app = Flask(__name__)
-
+222222
 @app.route('/')
 def 
 app.run(host='localhost',port=4002)
