@@ -14,17 +14,6 @@ response = urllib.request.urlopen(request).read()
 #Loads response as JSON
 directions = json.loads(response)
 print(directions)"""
-import info; 
-from flask import Flask;
-
-geolocator = Nominatim(user_agent="algo")
-app = Flask(__name__)
-222222
-@app.route('/')
-def 
-app.run(host='localhost',port=4002)
-
-
 """
 import cgi, cgitb
 
